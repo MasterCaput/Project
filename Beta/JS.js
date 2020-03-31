@@ -6,7 +6,7 @@ window.onload = function() {
 
         dis.style.right = timePassed / 5 + 'px';
 
-        if (timePassed > 1000) clearInterval(timer);
+        if (timePassed > 1500) clearInterval(timer);
 
     }, 3);
 }
