@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS.css">
+    <meta charset="utf-8"></meta>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Я разрешаю дрочить</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            background: linear-gradient(111.3deg, #FB4646 8.12%, rgba(0, 0, 0, 0) 158.42%);
+        }
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 100px;
+            font-weight: 600;
+            color: #ffffff;
+
+        }
+    </style>
+    <div style="float:left; margin-left:100%; margin-top: 20%; ">
+        <img id="dis" class="diss" src="disabled.png" />
+        <style>
+            #dis {
+                position: absolute;
+                height: 400;
+            }
+        </style>
+    </div>
+
+</head>
+
+<body>
+    <script>
+        window.onload = function() {
+            let start = Date.now();
+
+            let timer = setInterval(function() {
+                let timePassed = Date.now() - start;
+
+                dis.style.right = timePassed / 5 + 'px';
+
+                if (timePassed > 1000) clearInterval(timer);
+
+            }, 3);
+        }
+    </script>
+
+    <div class="back">
+        <h1>Я разрешаю <br> дрочить</h1>
+    </div>
+</body>
+
+</html>
