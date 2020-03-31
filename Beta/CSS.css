@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(111.3deg, #FB4646 8.12%, rgba(0, 0, 0, 0) 158.42%);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    color: #ffffff;
+}
