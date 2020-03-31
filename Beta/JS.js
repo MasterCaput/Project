@@ -4,7 +4,7 @@ window.onload = function() {
     let timer = setInterval(function() {
         let timePassed = Date.now() - start;
 
-        dis.style.right = timePassed / 6 + 'px';
+        dis.style.right = timePassed / 5 + 'px';
 
         if (timePassed > 1000) clearInterval(timer);
 
