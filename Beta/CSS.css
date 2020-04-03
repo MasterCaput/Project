@@ -1,10 +1,13 @@
 body {
-    background: linear-gradient(111.3deg, #FB4646 8.12%, rgba(0, 0, 0, 0) 158.42%);
+    background: linear-gradient(120deg, rgba(98, 245, 208, 0.863), rgba(0, 0, 0, 0.842));
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 100px;
+    font-size: 223px;
     font-weight: 600;
-    color: #ffffff;
+    color: #000000;
+    margin-left: 3%;
+    margin-top: 8.89%;
+    position: fixed;
 }
