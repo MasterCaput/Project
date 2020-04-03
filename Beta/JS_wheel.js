@@ -6,10 +6,8 @@ function wheel() {
 
         wl.style.right = timePassed / 5 + 'px';
 
-        if (timePassed > 1500) clearInterval(timer);
+        if (timePassed > 1800) clearInterval(timer);
 
-
-    }, 30);
+    }, 20);
 }
-
 window.onload = wheel();
