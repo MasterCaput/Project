@@ -8,6 +8,6 @@
 
          if (timePassed > 1800) clearInterval(timer);
 
-     }, 20);
+     }, 0.1);
  }
  window.onload = disabled();
