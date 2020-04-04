@@ -4,9 +4,9 @@
      let timer = setInterval(function() {
          let timePassed = Date.now() - start;
 
-         dis.style.right = timePassed / 5 + 'px';
+         dis.style.right = timePassed / 7 + 'px';
 
-         if (timePassed > 1800) clearInterval(timer);
+         if (timePassed > 3000) clearInterval(timer);
 
      }, 0.1);
  }
