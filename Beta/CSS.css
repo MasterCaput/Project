@@ -4,8 +4,8 @@
     
     h1 {
         font-family: 'Roboto', sans-serif;
-        font-size: 223px;
-        font-weight: 600;
+        font-size: 220px;
+        font-weight: 700;
         color: #000000;
         margin-left: 3%;
         margin-top: 8.89%;
@@ -14,7 +14,7 @@
     
     img.wl {
         margin-left: 110%;
-        margin-top: 23.5%;
+        margin-top: 27%;
         position: fixed;
         height: 180;
         animation-name: rotation;
@@ -34,7 +34,7 @@
     
     img.dis {
         margin-left: 100%;
-        margin-top: 5.57%;
+        margin-top: 15%;
         position: fixed;
         height: 400;
     }
