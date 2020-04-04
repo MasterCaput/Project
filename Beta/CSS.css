@@ -47,6 +47,11 @@
     justify-content: space-evenly;
 
 }
-.item {
+.text {
+    flex: 1;
 
+}
+
+.animation {
+    flex: 1;
 }
